@@ -1,0 +1,6 @@
+var calculadora = require("./calculadora")
+console.log("15 + 5 = " + calculadora.soma(15,5))
+console.log("15 / 5 = " + calculadora.div(15,5))
+console.log("15 - 5 = " + calculadora.sub(15,5))
+console.log("15 * 5 = " + calculadora.mult(15,5))
+console.log(typeof calculadora.soma)
